@@ -1,8 +1,13 @@
 // Assignment Code
+
+window.prompt("Enter R, P, or S:");
+
+
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
-function writePassword() {
+generateBtn.addEventListener("click", function writePassword() {
+
+  window.prompt("Enter R, P, or S:");
 
   var specialchar = false
   var minpasslength = 8
@@ -13,6 +18,7 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
+});
 
 
 
@@ -20,46 +26,3 @@ function writePassword() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  var passwordText.value = password;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-function generatePassword(spec,passleng,caps) {
-
-if 
-
-
-
-}
-
-
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
