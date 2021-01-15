@@ -24,6 +24,9 @@ generateBtn.addEventListener("click", function writePassword(){
   var specialcharTF = YNverify("Special Characters");
   var capitalsTF = YNverify("Capitals");
  
+
+
+  
  if(numericalsTF){
   var temppass = temppass + genrancharfromarray(numericals);
   window.prompt(temppass);
